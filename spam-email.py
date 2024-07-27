@@ -5,7 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
 
 
-df = pd.read_csv('/content/drive/MyDrive/spam.csv', encoding='latin-1')  
+df = pd.read_csv('spam.csv', encoding='latin-1')  
 X = df['v2']
 y = df['v1']
 
